@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://files.catbox.moe/zzulya.png" width="100%" alt="Performance Manager Preview">
+  <img src="https://files.catbox.moe/u035uy.jpeg" width="100%" alt="Performance Manager Preview">
 </p>
 
 <h1 align="center">Performance Manager</h1>
