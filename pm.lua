@@ -1,4 +1,4 @@
--- Create NarsEdv | Performance Manager (Updated & Fixed)
+-- Create NarsEdv | Performanc Manager
 local executorEnv = getfenv() :: any
 
 local Players = game:GetService("Players")
