@@ -11,16 +11,6 @@
 
 ---
 
-## Features
-
-- **Server Management** — Preview games, rejoin servers, server hop, and find small servers.
-- **Anti Lag** — Graphics presets, visual optimization, and rendering controls.
-- **Hide Player** — Manage player visibility, names, accessories, and effects.
-- **Player Management** — Search players, exclude specific users, and track player activity.
-- **Restore Settings** — Restore original rendering and visual properties.
-
----
-
 ## Loadstring
 
 ```lua
