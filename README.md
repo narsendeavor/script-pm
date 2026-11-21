@@ -13,7 +13,7 @@
 ## Loadstring
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/narsendeavor/script-pm/refs/heads/main/pm.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/narsendeavor/script-pm/refs/heads/main/performancemanager.lua"))()
 ```
 
 ## Features
