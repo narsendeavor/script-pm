@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="https://files.catbox.moe/whjibo.jpeg" width="100%" alt="Performance Manager">
 </p>
@@ -14,6 +15,45 @@
 
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/narsendeavor/script-pm/refs/heads/main/performancemanager.lua"))()
+```
+
+## Infinite Yield Plugin Command
+
+**Command:** `pm / performance`
+
+```lua
+-- Performance Manage Server
+-- https://github.com/narsendeavor/script-pm
+
+local Plugin = {
+    ["PluginName"] = "Performance Manager",
+    ["PluginDescription"] = "Roblox performance optimization, anti-lag, visual effects management, player visibility controls, and server utilities.",
+    ["Commands"] = {
+        ["pm"] = {
+            ["ListName"] = "pm / performance",
+            ["Description"] = "Loads Performance Manager.",
+            ["Aliases"] = {"performance"},
+            ["Function"] = function(args, speaker)
+                local success, err = pcall(function()
+                    loadstring(game:HttpGet(
+                        "https://raw.githubusercontent.com/narsendeavor/script-pm/refs/heads/main/performancemanager.lua"
+                    ))()
+                end)
+                
+                if success then
+                    notify(
+                        "Performance Manager",
+                        "Loaded Performance Manager Server"
+                    )
+                else
+                    warn("[Performance Manager] " .. tostring(err))
+                end
+            end
+        }
+    }
+}
+
+return Plugin
 ```
 
 ## Features
